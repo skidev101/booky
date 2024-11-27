@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    
+    
+    
+</head>
+<body>
+    <header>
+            <i class="fa fa-arrow-left"></i>
+            <h1>Booky</h1>
+            
+            <button>
+                <a href="signUp.html">Sign up</a>
+            </button>
+        </header>
+    
+    <div class="container">
+        
+        <div class="blob">
+            <img src="img/blob.png">
+        </div>
+        
+        <div class="image">
+            <img src="img/read.png">
+        </div>
+        
+        <div class="cont">
+            <form>
+                <div class="text">
+                    <h1>Login</h1>
+                <p>Please sign in to continue</p>
+                </div>
+                
+                <div class="inputs">
+                    <div class="inp" id="email">
+                        <i class="fa fa-user"></i>
+                        <input type="email" placeholder="Email" id="emailIn">
+                    </div>
+                   <p class="error" id="email_error"></p>
+                   
+                    <div class="inp" id="password">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" placeholder="Password" id="passIn">
+                        <i class="fa fa-eye" id="see"></i>
+                    </div>
+                    <p class="error" id="pass_error"></p>
+                    
+                </div>
+                
+                
+                <div class="forgot">
+                    <p>
+                        Forgot password? 
+                        <a href="#">Reset here</a>
+                    </p>
+                </div>
+                
+                <div class="btn">
+                    <button>SIGN IN</button>
+                </div>
+                
+                <div class="or">
+                    <div></div>
+                    <p>or</p>
+                    <div></div>
+                </div>
+                
+                
+                <div class="options">
+                    <button class="google">
+                        <img src="img/google.png">
+                        Google
+                    </button>
+                    <button class="fb">
+                        <img src="img/fb.png">
+                        Facebook
+                    </button> 
+                </div> 
+                
+                <div class="redirect">
+                    <p>
+                        Don't have an account? 
+                        <a href="#">Sign up</a>
+                    </p>
+                </div>
+                
+                
+            </form>
+        </div>
+        
+    </div>
+    
+    <script src="login.js"></script>
+</body>
+</html>

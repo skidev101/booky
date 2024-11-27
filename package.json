@@ -1,0 +1,23 @@
+{
+  "name": "booky",
+  "version": "1.0.0",
+  "description": "login-signUp",
+  "main": "login.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ski101-codes/booky.git"
+  },
+  "keywords": [
+    "login",
+    "signup"
+  ],
+  "author": "ski101",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ski101-codes/booky/issues"
+  },
+  "homepage": "https://github.com/ski101-codes/booky#readme"
+}

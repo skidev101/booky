@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign up</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    
+    
+    
+</head>
+<body>
+        <header>
+            <i class="fa fa-arrow-left"></i>
+            <h1>Booky</h1>
+            
+            <button>
+                <a href="login.html">Login</a>
+            </button>
+        </header>
+    
+    <div class="container">
+        
+            <div class="blob">
+            <img src="img/blob.png" class="bb">
+        </div>
+        
+        <div class="image book">
+            <img src="img/book.png">
+        </div>
+       
+        
+        <div class="cont">
+            <form>
+                <div class="text">
+                    <h1>Sign up</h1>
+                <p>Please complete the form below</p>
+                </div>
+                
+                <div class="inputs">
+                     <div class="name">
+                        <div class="inp" id="name1">
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="First name" id="fnameIn">
+                    </div>
+                     <p class="error" id="fname_error"></p>
+                     
+                     <p class="error" id="lname_error"></p>
+                    <div class="inp" id="name2">
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="Last name" id="lnameIn"> 
+                    </div> 
+                    
+                    <!-- <div class="inp" id="name">
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="Username" id="nameIn">
+                    </div> -->
+                    
+                     <p class="error" id="name_error"></p>
+                    
+                    <!--  -->
+                    </div>
+                    
+                    <div class="inp" id="email">
+                        <i class="fa fa-envelope"></i>
+                        <input type="text" placeholder="Email" id="emailIn">
+                    </div>
+                    
+                     <p class="error" id="email_error"></p>
+                    
+                    <!--  -->
+                    <div class="inp" id="password">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" placeholder="Password" id="passIn">
+                        <i class="fa fa-eye" id="see"></i>
+                    </div>
+                    
+                     <p class="error" id="pass_error"></p>
+                     <!--  -->
+                    
+                    <div class="inp" id="password1">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" placeholder="Confirm password" id="pass1In" >
+                        <i class="fa fa-eye" id="see1"></i>
+                    </div>
+                    
+                     <p class="error" id="pass1_error"></p>
+                     <!--  -->
+                    
+                </div>
+                
+                
+                
+                
+                <div class="btn">
+                    <button type="submit">SIGN UP</button>
+                </div>
+                
+                <div class="or">
+                    <div></div>
+                    <p>or</p>
+                    <div></div>
+                </div>
+                
+                
+                <div class="options">
+                    <button class="google">
+                        <img src="img/google.png">
+                        Google
+                    </button>
+                    <button class="fb">
+                        <img src="img/fb.png">
+                        Facebook
+                    </button>
+                </div> 
+                
+                <div class="redirect">
+                    <p>
+                        Already have an account?
+                        <a href="#">Login</a>
+                    </p>
+                </div>
+                
+                
+                
+            </form>
+        </div>
+        
+    </div>
+    
+    <script src="signUp.js"></script>
+</body>
+</html>
