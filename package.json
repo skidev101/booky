@@ -2,7 +2,7 @@
   "name": "booky",
   "version": "1.0.0",
   "description": "login-signUp",
-  "main": "login.html",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
