@@ -113,7 +113,6 @@ header button:active{
     width: 100%;
     height: 2.4em;
     margin: 10px 0;
-    
 }
 .btn button{
     width: 100%;
@@ -176,13 +175,6 @@ header button:active{
 .redirect a{
     color: #2B9CF1;
 }
-
-
-
-
-
-
-/* SIGN UP */
 .name{
     display: flex;
     justify-content: space-between;
