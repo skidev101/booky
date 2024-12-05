@@ -24,6 +24,24 @@ header i{
 header h1{
     font-weight: bolder;
 }
+header button{
+    position: absolute;
+    right: 5px;
+    width: max-content;
+    height: 2em;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #2B9CF1;
+    font-weight: 500;
+}
+header button a{
+    padding: 0 8px;
+    color: #fff;
+}
+header button:active{
+    background: lightblue;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -109,6 +127,9 @@ header h1{
     background: #2B9CF1;
     margin: .8em 0;
 }
+.btn button:active{
+    background: lightblue;
+}
 .or{
     text-align: center;
     display: flex;
@@ -162,19 +183,6 @@ header h1{
 
 
 /* SIGN UP */
-header button{
-    position: absolute;
-    right: 5px;
-    width: 4em;
-    height: 2em;
-    border: 1px solid #000;
-    border-radius: 50px;
-    color: #fff;
-    background: #2B9CF1;
-}
-header button a{
-    color: #fff;
-}
 .name{
     display: flex;
     justify-content: space-between;
