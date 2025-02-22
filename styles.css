@@ -56,19 +56,19 @@ header button:active{
         place-items: center;
         min-height: 100vh;
     }
-    /* header{
-        display: none;
-    } */
     .container{
         padding: 10px 5px;
-        background: #f1f1f1;
+        background: rgba(125, 225, 225, 0.1);
         border-radius: 12px;
     }
     .inp{
-        background: #fff;
+        background: transparent;
     }
     .options button{
         background: #fff;
+    }
+    .image .blob{
+        display: none;
     }
 }
 .image .blob img{
@@ -105,7 +105,6 @@ header button:active{
     margin-top: 12px;
     display: flex;
     align-items: center;
-    /* background: #f1f1f1; */
 }
 .inp i{
     padding: 0 13px;
